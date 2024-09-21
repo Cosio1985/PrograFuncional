@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar Productos por Categoría</title>
+    <link rel="stylesheet" href="../PracticaPF_Filter/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Filtrar Productos por Categoría</h1>
+
+        <!-- Formulario para capturar la categoría -->
+        <form id="formulario">
+            <label for="categoria">Ingresa la categoría:</label>
+            <input type="text" id="categoria" name="categoria" required>
+            <button type="submit">Filtrar</button>
+        </form>
+
+        <!-- Sección para mostrar los resultados -->
+        <h2>Resultados</h2>
+        <ul id="lista-productos"></ul>
+    </div>
+
+    <script src="../PracticaPF_Filter/script_filterPF.js"></script>
+</body>
+</html>
